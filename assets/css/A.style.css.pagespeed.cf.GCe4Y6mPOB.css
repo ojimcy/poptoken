@@ -7224,10 +7224,6 @@ a:active {
   color: #fff;
   border-color: #fff;
 }
-.tm-green-color .tm-primary-nav .menu-item > .nav-link:after {
-  background: url(../img/xgreen-light.png.pagespeed.ic.dJjYj9OlF3.png) no-repeat
-    center center;
-}
 .tm-green-color .tm-primary-nav .menu-item > .nav-link:before {
   background-color: #77d102;
 }
