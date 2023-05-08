@@ -3753,3 +3753,11 @@ a:active {
   transform: rotate(360deg) scale(1.07);
   color: #fff;
 }
+
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
