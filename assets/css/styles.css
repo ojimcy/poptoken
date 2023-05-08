@@ -34,9 +34,13 @@ h5 {
 }
 h1 {
   font-size: 40px;
+  font-family: Gotham-Ultraitalic, sans-serif;
+  font-weight: 900;
 }
 h2 {
   font-size: 34px;
+  font-family: Gotham-Ultraitalic, sans-serif;
+  font-weight: 900;
 }
 h3 {
   font-size: 26px;
@@ -80,6 +84,7 @@ a:active {
 }
 .tm-bg {
   position: relative;
+  background: #f95cb5;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -876,6 +881,9 @@ a:active {
   position: relative;
   z-index: 2;
 }
+.tm-site-branding .tm-logo-link img {
+  max-width: 100px;
+}
 .tm-mobile-logo {
   display: none;
 }
@@ -1016,8 +1024,6 @@ a:active {
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background: url(assets/img/xlight.png.pagespeed.ic.FCe0I3PDbq.png) no-repeat
-    center center;
   width: 39px;
   height: 48px;
   top: 1px;
@@ -2364,10 +2370,11 @@ a:active {
   margin: 15px;
 }
 .tm-token-list .tm-single-token img {
-  opacity: 0.5;
+  opacity: 1.5;
   -webkit-transition: all 0.4s ease;
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  max-width: 135px;
 }
 .tm-token-list .tm-single-token img:hover {
   opacity: 1;
@@ -2647,7 +2654,7 @@ a:active {
   border: 1px solid #77d102;
 }
 .tm-green-color .tm-header-menu {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #ae407e;
 }
 .tm-green-color .tm-btn:before {
   border-color: #fff;
@@ -2693,8 +2700,8 @@ a:active {
 .tm-green-color .tm-countdown-wrap.tm-style1 .tm-countdown-box {
   position: relative;
   z-index: 10;
-  height: 321px;
-  width: 321px;
+  height: 351px;
+  width: 351px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2716,7 +2723,7 @@ a:active {
   top: 0;
   height: 100%;
   width: 100%;
-  border: 2px dotted #77d102;
+  border: 2px dotted #f95cb5;
   border-radius: 50%;
   -webkit-animation: tm-rotate infinite 35s linear;
   animation: tm-rotate infinite 35s linear;
@@ -2811,7 +2818,7 @@ a:active {
   background-color: #77d102;
 }
 .tm-green-color .tm-single-work {
-  border-color: #dd7c9d;
+  border-color: #77d102;
   -webkit-box-shadow: initial;
   box-shadow: initial;
   background-color: #01481d;
@@ -2847,7 +2854,7 @@ a:active {
   color: #8ae1ad;
 }
 .tm-green-color .tm-ocher-work .tm-section-heading-right h2 {
-  color: #77d102;
+  color: #ffffff;
 }
 .tm-green-color .tm-comparison-table thead tr th {
   background-color: #013310;
@@ -2887,7 +2894,7 @@ a:active {
   color: #77d102;
 }
 .tm-green-color .tm-token-distribution-list li {
-  color: #77d102;
+  color: #ffffff;
 }
 .tm-green-color .tm-green-token-color1 .tm-blank.tm-token-color1 {
   background-color: #fdc10f;
@@ -2968,7 +2975,6 @@ a:active {
   content: '';
   height: 170px;
   width: 170px;
-  background-image: url(assets/img/xgreen-ball.png.pagespeed.ic.p5lDCVb3PU.png);
   position: absolute;
   left: 0;
   top: 50%;
@@ -2990,8 +2996,8 @@ a:active {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 22px;
+  font-weight: 900;
   color: #77d102;
 }
 .green-slider-nav {
@@ -3012,7 +3018,7 @@ a:active {
   width: 54px;
   background-color: transparent;
   border: none;
-  color: transparent;
+  color: #ffffff;
   overflow: hidden;
   position: absolute;
   left: 50%;
@@ -3069,7 +3075,6 @@ a:active {
   top: 0;
   height: 100%;
   width: 100%;
-  background-image: url(assets/img/xgreeen-arrow-bg.png.pagespeed.ic.z85QfoChoY.png);
   background-repeat: no-repeat;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -3120,7 +3125,7 @@ a:active {
   right: 0;
 }
 .tm-gr-yr {
-  width: 155px;
+  width: 5px;
   position: relative;
   padding-right: 25px;
   color: #77d102;
@@ -3196,7 +3201,6 @@ a:active {
   content: '';
   height: 100%;
   width: 100%;
-  background-image: url(assets/img/xgreeen-arrow-bg.png.pagespeed.ic.z85QfoChoY.png);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -3356,14 +3360,13 @@ a:active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
   list-style: none;
-  margin: 0;
+  margin: 30px;
   padding: 0;
 }
 .tm-social-btn-wrap.tm-style2 ul li {
   width: 50%;
+  display: inline;
 }
 .tm-social-btn-wrap.tm-style2 ul li a,
 .tm-email-btn2 {
@@ -3628,6 +3631,13 @@ a:active {
     -ms-transform: scale(0.6);
     transform: scale(0.6);
   }
+  .tm-single-work .tm-content .tm-content-img img {
+    max-width: 78px;
+  }
+  .tm-item h2 {
+    font-size: 22px !important;
+    font-weight: 700;
+  }
 }
 .tm-roadmap-wrap .container {
   position: relative;
@@ -3664,6 +3674,7 @@ a:active {
 
 .tm-countdown-box img {
   border-radius: 50%;
+  max-width: 321px;
 }
 .swiper-container {
   width: 100%;
@@ -3673,4 +3684,72 @@ a:active {
 .swiper-slide img {
   width: 100%;
   height: auto;
+}
+
+.tm-section-divider {
+  position: relative;
+  background-color: #77d102;
+  height: 3px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: center;
+}
+
+.tm-section-divider-cirecle {
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #f95cb5;
+  position: relative;
+  border: 3px solid #77d102;
+}
+
+
+.social-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin-top: 30px;
+  padding: 0;
+  justify-content: space-between;
+  max-width: 450px;
+}
+.social-btn .social-icon a {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 2px solid #77d102;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0c4514;
+  margin-right: 30px;
+  -webkit-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  font-size: 22px;
+  padding-left: 1px;
+  padding-top: 1px;
+}
+.social-btn .social-icon a:hover {
+  -webkit-transform: rotate(360deg) scale(1.07);
+  -ms-transform: rotate(360deg) scale(1.07);
+  transform: rotate(360deg) scale(1.07);
+  color: #fff;
 }

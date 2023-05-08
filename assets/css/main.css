@@ -1,10 +1,4 @@
-@font-face {
-  font-family: 'IcoFont';
-  font-weight: normal;
-  font-style: 'Regular';
-  src: url(assets/fonts/icofont.woff2) format('woff2'),
-    url(assets/fonts/icofont.woff) format('woff');
-}
+
 @font-face {
   font-family: 'Flaticon';
   src: url(assets/fonts/Flaticon.eot);
@@ -20,19 +14,6 @@
     font-family: 'Flaticon';
     src: url(assets/css/Flaticon.html#Flaticon) format('svg');
   }
-}
-@font-face {
-  font-family: 'FontAwesome';
-  src: url(assets/fonts/fontawesome-webfont3e6e.eot?v=4.7.0);
-  src: url(assets/fonts/fontawesome-webfontd41d.eot?#iefix&v=4.7.0)
-      format('embedded-opentype'),
-    url(assets/fonts/fontawesome-webfont3e6e.woff2?v=4.7.0) format('woff2'),
-    url(assets/fonts/fontawesome-webfont3e6e.woff?v=4.7.0) format('woff'),
-    url(assets/fonts/fontawesome-webfont3e6e.ttf?v=4.7.0) format('truetype'),
-    url(assets/fonts/fontawesome-webfont3e6e.svg?v=4.7.0#fontawesomeregular)
-      format('svg');
-  font-weight: normal;
-  font-style: normal;
 }
 :root {
   --blue: #007bff;

@@ -4224,11 +4224,4 @@
         'ul ol',
         'ul ul',
       ]
-      pagespeed.criticalCssBeaconInit(
-        '/mod_pagespeed_beacon',
-        'home1(green).html',
-        'UMSeiHfgyf',
-        'WGPevkrAICc',
-        pagespeed.selectors
-      )
       //]]>
